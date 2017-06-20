@@ -26,8 +26,6 @@ The team has driven their Ford Fusion Hybrid enough to know the miles per gallon
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Ford_Fusion_Hybrid_WAS_2017_1650.jpg" alt="Ford Fusion Hybrid" style="width: 200px; height: 200px"/>
 
-build a `moneySaver` function. This function should take students' current info and calculate the amount of money spent on gas. 
-
 First, build a `calculateCostOfGas` function that should take students'info and calculate the amount of money spent on gas yearly. 
 Then, build a `moneySaver` function. This function should use the `calculateCostOfGas` function to compare the cost of driving their current car to driving the 2017 Ford Fusion Hybrid.
 
