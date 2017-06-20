@@ -13,11 +13,7 @@
  * @return {string} Information about a user's annual gas savings
  */
  
-function moneySaver(
-    studentName, cityMpg, highwayMpg, 
-    cityMiles, highwayMiles, days
-    ){
-
+function moneySaver(studentName, cityMpg, highwayMpg, cityMiles, highwayMiles, days){
     // Savings will store the result of all the calculations
     var savings = 0
 
