@@ -6,8 +6,8 @@
  * @param {string} studentName - The name of the student
  * @param {number} cityMpg - The city miles per gallon their current car gets
  * @param {number} highwayMpg - The highway miles per gallon their current car gets
- * @param {number} cityMiles - The number of personal city miles they drive in one year
- * @param {number} highwayMiles - The number of personal highway miles they drive in one year
+ * @param {number} cityMiles - The number of personal city miles they drive per day
+ * @param {number} highwayMiles - The number of personal highway miles they drive iper day
  * @param {number} days - The number of days that student drives per year
  *
  * @return {string} Information about a user's annual gas savings
