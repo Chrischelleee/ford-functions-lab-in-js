@@ -52,8 +52,3 @@ Here's your info:
 Calculate the yearly savings in gas each of these students can expect by driving the **Ford Fusion Hybrid**.
 
 Use the tests as a guide!
-
-## Resources
-
-* [MDN - For Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
-* [MDN - While Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while)

@@ -13,31 +13,20 @@
  * @return {string} Information about a user's annual gas savings
  */
  
-function moneySaver(
-    studentName, cityMpg, highwayMpg, 
-    cityMiles, highwayMiles, days
-    ){
-
+function moneySaver(studentName, cityMpg, highwayMpg, cityMiles, highwayMiles, days){
     // Savings will store the result of all the calculations
     var savings = 0
-
-    // The mpg for the Ford Fusion Hybrid
-    var hybridCityMpg = 43
-    var hybridHighwayMpg = 41
+    var answer
+    // Variables: mpg for the Ford Fusion Hybrid
     
     // Store the value of running the calculateCostOfGas function for each
     // car. 
-    var currentCarGasTotal = calculateCostOfGas(365, cityMpg, highwayMpg, cityMiles, highwayMiles)
-    var hybridGasTotal = calculateCostOfGas(365,  hybridCityMpg, hybridHighwayMpg, cityMiles, highwayMiles)
-    
-    savings = currentCarGasTotal - hybridGasTotal
 
-    var answer = 
-    `
-        ${studentName} can expect to save at least $${savings.toFixed(2)} on gasoline in this upcoming year!
-        Using ${studentName}'s current car, if would cost $${currentCarGasTotal.toFixed(2)}, while the 
-        hybrid would cost $${hybridGasTotal.toFixed(2)}.
-    `
+    // Calculate savings
+
+    // Construct answer
+
+    // Return answer
     return answer
 }
 
@@ -53,20 +42,15 @@ function moneySaver(
  * @return {number} totalCost
  */
 
-function calculateCostOfGas(days, cityMpg, highwayMpg, cityMilesPerDay, highwayMilesPerDay){
+function calculateCostOfGas(){
     var costPerGallon = 2.95
     var totalCost = 0
     
-    var cityMiles = days * cityMilesPerDay
-    var highwayMiles = days * highwayMilesPerDay
+    // Do all calculations here
     
-    var cityGallons = cityMiles / cityMpg
-    var highwayGallons = highwayMiles / highwayMpg
     
-    var cityCost = cityGallons * costPerGallon
-    var highwayCost = highwayGallons * costPerGallon
     
-    totalCost = cityCost + highwayCost
+    // Good luck!
     
     return totalCost
 }
